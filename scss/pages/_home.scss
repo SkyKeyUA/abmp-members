@@ -41,20 +41,24 @@
 		line-height: 1.5;
 		display: flex;
 		justify-content: space-between;
-		column-gap: 1.5rem; /* 24/16 */
-		row-gap: 0.5rem; /* 8/16 */
+		gap: 0.5rem; /* 8/16 */
 		margin-block-end: 0.5rem; /* 8/16 */
+		@media (min-width: 479.98px) {
+			column-gap: 1.5rem; /* 24/16 */
+		}
 	}
 
 	// .welcome__name
 
 	&__name {
+		flex-basis: calc(43% - 4px);
 		font-weight: 700;
 	}
 
 	// .welcome__member
 
 	&__member {
+		flex-basis: calc(57% - 4px);
 		text-align: right;
 		select {
 			border: revert;
