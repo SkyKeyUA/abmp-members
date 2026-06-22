@@ -156,6 +156,7 @@ input:focus {
   -webkit-column-gap: 2%;
      -moz-column-gap: 2%;
           column-gap: 2%;
+  row-gap: 2.5rem; /* 40/16 */
 }
 @media (max-width: 767.98px) {
   .layout__container {
@@ -171,6 +172,7 @@ input:focus {
       flex-basis: 73.5%;
 }
 .home-hero h1 {
+  font-family: var(--font-family-second);
   font-size: 2.5rem; /* 40/16 */
   line-height: 1.15;
   font-weight: 700;
@@ -831,7 +833,7 @@ input:focus {
   color: var(--color-white);
   background: var(--color-orange) url("../img/icons/white_circle_arrow.png") 0.65rem 50% no-repeat;
   border-bottom: 0.1875rem solid var(--color-grey-15);
-  padding: 0.65rem 1.3rem 0.65rem 2.6rem;
+  padding: 0.875rem 1.3rem 0.875rem 2.6rem;
   white-space: nowrap;
 }
 .aside__column {
