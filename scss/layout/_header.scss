@@ -1,7 +1,7 @@
 .header {
 	@media (min-width: 767.98px) {
 		padding-block-start: 2.3125rem; /* 37/16 */
-		background: url("/img/header/header_bg.png") 50% bottom repeat-x;
+		background: url("img/header/header_bg.png") 50% bottom repeat-x;
 	}
 	border-bottom: 0.1875rem solid var(--color-grey-20);
 	&__background {

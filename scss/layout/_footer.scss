@@ -60,25 +60,25 @@
 	// .footer__address
 
 	&__address {
-		background: url("/img/icons/address_icon.png") no-repeat;
+		background: url("img/icons/address_icon.png") no-repeat;
 	}
 
 	// .footer__email
 
 	&__email {
-		background: url("/img/icons/footer-email-icon.png") 0 0.25rem no-repeat;
+		background: url("img/icons/footer-email-icon.png") 0 0.25rem no-repeat;
 	}
 
 	// .footer__number
 
 	&__number {
-		background: url("/img/icons/footer-phone-icon.png") no-repeat;
+		background: url("img/icons/footer-phone-icon.png") no-repeat;
 	}
 
 	// .footer__fax
 
 	&__fax {
-		background: url("/img/icons/fax_icon.png") no-repeat;
+		background: url("img/icons/fax_icon.png") no-repeat;
 	}
 
 	// .footer__copyright
@@ -143,10 +143,10 @@
 
 	&__facebook {
 		a {
-			background: var(--color-blue-20) url("/img/icons/facebook.png") 0.5625rem 50% no-repeat;
+			background: var(--color-blue-20) url("img/icons/facebook.png") 0.5625rem 50% no-repeat;
 			@media (any-hover: hover) {
 				&:hover {
-					background: var(--color-blue-90) url("/img/icons/facebook.png") 0.5625rem 50% no-repeat;
+					background: var(--color-blue-90) url("img/icons/facebook.png") 0.5625rem 50% no-repeat;
 				}
 			}
 		}
@@ -156,10 +156,10 @@
 
 	&__twitter {
 		a {
-			background: var(--color-blue-20) url("/img/icons/x.png") 0.3125rem 50% no-repeat;
+			background: var(--color-blue-20) url("img/icons/x.png") 0.3125rem 50% no-repeat;
 			@media (any-hover: hover) {
 				&:hover {
-					background: var(--color-blue-90) url("/img/icons/x.png") 0.3125rem 50% no-repeat;
+					background: var(--color-blue-90) url("img/icons/x.png") 0.3125rem 50% no-repeat;
 				}
 			}
 		}
@@ -169,10 +169,10 @@
 
 	&__linkedin {
 		a {
-			background: var(--color-blue-20) url("/img/icons/linkedin_icon.png") 0.4375rem 50% no-repeat;
+			background: var(--color-blue-20) url("img/icons/linkedin_icon.png") 0.4375rem 50% no-repeat;
 			@media (any-hover: hover) {
 				&:hover {
-					background: var(--color-blue-90) url("/img/icons/linkedin_icon.png") 0.4375rem 50% no-repeat;
+					background: var(--color-blue-90) url("img/icons/linkedin_icon.png") 0.4375rem 50% no-repeat;
 				}
 			}
 		}

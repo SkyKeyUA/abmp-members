@@ -788,7 +788,7 @@ input:focus {
 .topbar__links a {
   padding-block: 0.18rem; /* 2.88/16 */
   padding-inline: 0.9rem; /* 14.4/16 */
-  background: var(--color-green-60) url("/img/topbar/green_bubble_bg.png") no-repeat -3.125rem 0.9375rem;
+  background: var(--color-green-60) url("img/topbar/green_bubble_bg.png") no-repeat -3.125rem 0.9375rem;
   -webkit-box-shadow: 0 0.1875rem 0.0625rem #387ab2;
           box-shadow: 0 0.1875rem 0.0625rem #387ab2;
   border-radius: 0.125rem;
@@ -829,7 +829,7 @@ input:focus {
 }
 .aside__refer a {
   color: var(--color-white);
-  background: var(--color-orange) url("/img/icons/white_circle_arrow.png") 0.65rem 50% no-repeat;
+  background: var(--color-orange) url("img/icons/white_circle_arrow.png") 0.65rem 50% no-repeat;
   border-bottom: 0.1875rem solid var(--color-grey-15);
   padding: 0.65rem 1.3rem 0.65rem 2.6rem;
   white-space: nowrap;
@@ -1065,7 +1065,7 @@ main {
   .header {
     -webkit-padding-before: 2.3125rem;
             padding-block-start: 2.3125rem; /* 37/16 */
-    background: url("/img/header/header_bg.png") 50% bottom repeat-x;
+    background: url("img/header/header_bg.png") 50% bottom repeat-x;
   }
 }
 .header {
@@ -1208,16 +1208,16 @@ main {
           padding-inline-start: 1.875rem; /* 30/16 */
 }
 .footer__address {
-  background: url("/img/icons/address_icon.png") no-repeat;
+  background: url("img/icons/address_icon.png") no-repeat;
 }
 .footer__email {
-  background: url("/img/icons/footer-email-icon.png") 0 0.25rem no-repeat;
+  background: url("img/icons/footer-email-icon.png") 0 0.25rem no-repeat;
 }
 .footer__number {
-  background: url("/img/icons/footer-phone-icon.png") no-repeat;
+  background: url("img/icons/footer-phone-icon.png") no-repeat;
 }
 .footer__fax {
-  background: url("/img/icons/fax_icon.png") no-repeat;
+  background: url("img/icons/fax_icon.png") no-repeat;
 }
 .footer__copyright {
   color: var(--color-brown-50);
@@ -1298,26 +1298,26 @@ main {
   }
 }
 .footer__facebook a {
-  background: var(--color-blue-20) url("/img/icons/facebook.png") 0.5625rem 50% no-repeat;
+  background: var(--color-blue-20) url("img/icons/facebook.png") 0.5625rem 50% no-repeat;
 }
 @media (any-hover: hover) {
   .footer__facebook a:hover {
-    background: var(--color-blue-90) url("/img/icons/facebook.png") 0.5625rem 50% no-repeat;
+    background: var(--color-blue-90) url("img/icons/facebook.png") 0.5625rem 50% no-repeat;
   }
 }
 .footer__twitter a {
-  background: var(--color-blue-20) url("/img/icons/x.png") 0.3125rem 50% no-repeat;
+  background: var(--color-blue-20) url("img/icons/x.png") 0.3125rem 50% no-repeat;
 }
 @media (any-hover: hover) {
   .footer__twitter a:hover {
-    background: var(--color-blue-90) url("/img/icons/x.png") 0.3125rem 50% no-repeat;
+    background: var(--color-blue-90) url("img/icons/x.png") 0.3125rem 50% no-repeat;
   }
 }
 .footer__linkedin a {
-  background: var(--color-blue-20) url("/img/icons/linkedin_icon.png") 0.4375rem 50% no-repeat;
+  background: var(--color-blue-20) url("img/icons/linkedin_icon.png") 0.4375rem 50% no-repeat;
 }
 @media (any-hover: hover) {
   .footer__linkedin a:hover {
-    background: var(--color-blue-90) url("/img/icons/linkedin_icon.png") 0.4375rem 50% no-repeat;
+    background: var(--color-blue-90) url("img/icons/linkedin_icon.png") 0.4375rem 50% no-repeat;
   }
 }
