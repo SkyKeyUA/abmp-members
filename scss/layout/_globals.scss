@@ -1,0 +1,33 @@
+html {
+	opacity: 0;
+	transition: opacity 0.8s;
+}
+
+html.loaded {
+	opacity: 1;
+}
+
+body {
+	color: var(--color-grey);
+	font-family: var(--font-family-primary);
+	background-color: var(--color-white);
+}
+.wrapper {
+	min-block-size: 100%;
+	overflow: clip;
+	display: flex;
+	flex-direction: column;
+}
+
+main {
+	flex-grow: 1;
+}
+
+[class*="__container"] {
+	max-inline-size: 92rem; /* 1472/16 */
+	margin-inline: auto;
+	padding-inline: 1rem; /* 16/16 */
+	@media (max-width: 479.98px) {
+		padding-inline: 0.5rem; /* 8/16 */
+	}
+}

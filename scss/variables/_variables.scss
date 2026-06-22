@@ -1,0 +1,44 @@
+:root {
+	/* fonts */
+	--font-family-primary:
+		"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", "Lucida Grande", sans-serif;
+	--font-family-second: "Open Sans Condensed", sans-serif;
+	--font-family-third: "Montserrat", sans-serif;
+	/* colors */
+	--color-white: #ffffff;
+	--color-black: #000000;
+
+	--color-grey: #333333;
+	--color-grey-70: #727272;
+	--color-grey-50: #869791;
+	--color-grey-25: #cccccc;
+	--color-grey-20: #e0ddd8;
+	--color-grey-15: #ddd9d4;
+	--color-grey-10: #e5e5e5;
+	--color-grey-05: #f9f6f1;
+	--color-black-90: #202020;
+	--color-blue-90: #094468;
+	--color-blue-80: #003a73;
+	--color-blue-60: #174b7d;
+	--color-blue-50: #0076eb;
+	--color-blue-40: #307bc5;
+	--color-blue-30: #3c83bf;
+	--color-blue-25: #569fd3;
+	--color-blue-20: #66a5d3;
+	--color-green-90: #26787b;
+	--color-green-60: #74cf05;
+	--color-brown-80: #4e3924;
+	--color-brown-60: #766d5c;
+	--color-brown-50: #7f7666;
+	--color-orange: #ff9900;
+	--color-red: #ff0000;
+
+	--font-small: 14px;
+
+	--container-padding-inline: 1rem; /* 16/16 */
+	--container-max-size: 92rem; /* 1472/16 */
+	--container-smaller-size: 67rem; /* 1072/16 */
+
+	/* opacity */
+	--color-white-opacity-05: #ffffff80;
+}

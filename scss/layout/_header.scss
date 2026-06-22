@@ -1,0 +1,72 @@
+.header {
+	@media (min-width: 767.98px) {
+		padding-block-start: 2.3125rem; /* 37/16 */
+		background: url("/img/header/header_bg.png") 50% bottom repeat-x;
+	}
+	border-bottom: 0.1875rem solid var(--color-grey-20);
+	&__background {
+		background: var(--color-white);
+	}
+	// .header__container
+
+	&__container {
+		position: relative;
+		font-size: 0;
+		min-block-size: 4.625rem; /* 74/16 */
+	}
+
+	// .header__logo
+
+	&__logo {
+		position: absolute;
+		inset-inline-start: 1rem;
+		inset-block-start: -1.75rem;
+		inline-size: 7.5rem; /* 120/16 */
+		aspect-ratio: 1;
+	}
+
+	// .header__icon-menu
+
+	&__icon-menu {
+	}
+}
+.menu {
+	line-height: 1.5rem; /* 24/16 */
+	@media (min-width: 991.98px) {
+		color: var(--color-brown-60);
+		margin-inline-start: clamp(10rem, 19.231vw - 1.923rem, 12.5rem); /* 200 */
+	}
+	// .menu__list
+
+	&__list {
+		font-size: 1rem;
+		@media (min-width: 991.98px) {
+			display: flex;
+			align-items: center;
+			column-gap: 3.75rem; /* 60 */
+			a {
+				padding-block: 1.5rem;
+				border-bottom: 0.125rem solid transparent;
+				position: relative;
+				transition: color 0.3s;
+				&::after {
+					content: "";
+					position: absolute;
+					inset-block-end: -0.25rem;
+					inset-inline-start: 0;
+					inline-size: 100%;
+					block-size: 0.125rem;
+					transition: background 0.3s;
+				}
+				@media (any-hover: hover) {
+					&:hover {
+						color: var(--color-blue-90);
+						&::after {
+							background: var(--color-blue-90);
+						}
+					}
+				}
+			}
+		}
+	}
+}

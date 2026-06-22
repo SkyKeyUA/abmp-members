@@ -1,0 +1,41 @@
+[class*="--cover"] img,
+[class*="--cover"] video {
+	inline-size: 100%;
+	block-size: 100%;
+	object-fit: cover;
+}
+[class*="--contain"] img,
+[class*="--contain"] video {
+	inline-size: 100%;
+	block-size: 100%;
+	object-fit: contain;
+}
+.title {
+	font-family: var(--font-family-second);
+	font-weight: 700;
+}
+.link {
+	color: var(--color-blue-80);
+	text-decoration: underline;
+}
+@media (any-hover: hover) {
+	[class*="--hover"] {
+		img {
+			transition: filter 0.3s ease;
+		}
+
+		&:hover img {
+			filter: var(--hover-image);
+		}
+		&:active img {
+			filter: none;
+		}
+	}
+	.link {
+		transition: color 0.3s;
+		&:hover {
+			color: var(--color-blue-50);
+			text-decoration: none;
+		}
+	}
+}
